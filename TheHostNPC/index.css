@@ -1,0 +1,311 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+@font-face {
+    font-family: 'NeoDunggeunmo';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.3/NeoDunggeunmo.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#container{
+    width: 1440px;
+    margin: 0 auto;
+}
+
+#main1{
+    position:relative;
+    width: 100%;
+    height: 1013px;
+    
+    background: #F5F5F5;
+}
+
+h1{
+    position: absolute;
+    width: 300px;
+    height: 29px;
+    left: 1015px;
+    top: 51px;
+    font-family: 'Press Start 2P';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 24px;
+    
+    color: #000000;
+}
+h2{
+    position: absolute;
+    width: 150px;
+    height: 49px;
+    left: 1150px;
+    top: 103px;
+    font-size: 15px;
+    font-family: 'Press Start 2P', cursive;
+    font-weight: 300px;
+    line-height: 22px;
+    text-align: right;
+    color: rgba(0, 0, 0, 0.7);
+}
+
+#menus{
+    font-family: 'NeoDunggeunmo';
+    font: weight 400px;
+    position: absolute;
+    width: 60px;
+    height: 20px;
+    left: 1240px;
+    top: 193px;
+    text-align: right;
+    font-style: normal;
+    list-style-type: none;
+    line-height: 40px;
+    font-size: 20px;
+    
+}
+
+#menus li{
+    text-decoration: none;
+}
+
+#mainimg{
+    position: absolute;
+width: 1009px;
+height: 819px;
+left: 96px;
+top: 107px;
+}
+h3{
+    position: absolute;
+width: 252px;
+height: 8px;
+left: 140px;
+top: 978px;
+
+font-family: 'Press Start 2P';
+font-style: normal;
+font-weight: 400;
+font-size: 10px;
+line-height: 10px;
+color: #000000;
+
+}
+
+#main2{
+    position: relative;
+width: 1440px;
+height: 2339px;
+background: #F5F5F5;
+}
+h4{
+    position: absolute;
+width: 657px;
+height: 110px;
+left: 140px;
+top: 120px;
+
+font-family: 'NeoDunggeunmo';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 22px;
+}
+
+#npcbutton{
+    box-sizing: border-box;
+    border-radius: 500px;
+
+position: absolute;
+width: 392px;
+height: 154px;
+left: 905px;
+top: 100px;
+
+background: #F4DB83;
+border: 3px solid #000000;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+font-family: 'Press Start 2P';
+font-style: normal;
+font-weight: 400;
+font-size: 30px;
+line-height: 30px;
+
+color: #000000;
+}
+
+h5{
+    position: absolute;
+    width: 170px;
+    height: 16px;
+    left: 1020px;
+    top: 210px;
+    
+    font-family: 'Press Start 2P';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 15px;
+    
+    color: #000000; 
+}
+
+#home{
+    position: absolute;
+width: 1157px;
+height: 589px;
+left: 140px;
+top: 350px;
+
+filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+
+}
+
+h6{
+    position: absolute;
+width: 451px;
+height: 32px;
+left: 506px;
+top: 1300px;
+
+font-family: 'Press Start 2P';
+font-style: normal;
+font-weight: 400;
+font-size: 32px;
+line-height: 32px;
+
+color: #F5F5F5;
+
+-webkit-text-stroke-width: 2px;
+-webkit-text-stroke-color: black;
+}
+
+#hostimg{
+    box-sizing: border-box;
+
+position: absolute;
+width: 928px;
+height: 613px;
+left: 257px;
+top: 1370px;
+
+border: 3px solid #000000;
+filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+h7{
+    position: absolute;
+width: 385px;
+height: 36px;
+left: 483px;
+top: 2010px;
+
+font-family: 'NeoDunggeunmo';
+font-style: normal;
+font-weight: 400;
+font-size: 36px;
+line-height: 36px;
+}
+
+#view{
+    position: absolute;
+width: 105px;
+height: 38px;
+left: 868px;
+top: 2010px;
+
+filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.3));
+
+font-family: 'Press Start 2P';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 12px;
+border: 2px solid #000000;
+border-radius: 23px;
+}
+
+#footer{
+    position: relative;
+width: 1440px;
+height: 542px;
+
+background: #C9CDDD;
+}
+
+#mini{
+    position: absolute;
+    width: 398px;
+    height: 31px;
+    left: 142px;
+    top: 298px;
+    
+    font-family: 'Press Start 2P';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 32px;
+    
+    color: #000000;
+    
+
+}
+
+#footerline{
+    position: absolute;
+    width: 1154px;
+    height: 0px;
+    left: 142px;
+    top: 348.5px;
+    
+    border: 1px solid #000000;
+}
+
+#cop{
+    position: absolute;
+    width: 552px;
+    height: 25px;
+    left: 142px;
+    top: 361px;
+    
+    font-family: 'NeoDunggeunmo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 24px;
+    
+    color: #000000;
+    
+
+}
+
+#bgch{
+    position: absolute;
+width: 213px;
+height: 13px;
+left: 1036px;
+top: 1688px;
+
+font-family: 'Press Start 2P';
+font-style: normal;
+font-weight: 400;
+font-size: 10px;
+line-height: 10px;
+
+color: #000000;
+
+transform: rotate(90deg);
+}
+
+#mnpc{
+    position: relative;
+width: 70px;
+height: 122px;
+left: 1236px;
+top: 210px;
+
+}
